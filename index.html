@@ -28,7 +28,7 @@
                 <a class="header-logo link" href="./index.html">Web<span class="logo-blue">Studio</span></a>
                 <ul class="header-list list">
                     <li class="header-item">
-                        <a class="header-link link" href="./index.html">Studio</a>
+                        <a class="header-link link current " href="./index.html">Studio</a>
                     </li>
                     <li class="header-item">
                         <a class="header-link link" href="./portfolio.html">Portfolio</a>
@@ -54,7 +54,7 @@
             <div class="hero-container container">
                 <h1 class="hero">Effective Solutions
                     for Your Business</h1>
-                <button class="hero-button" type="button">Order Service</button>
+                <button class="hero-button" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
         <!-- goals -->
@@ -343,7 +343,16 @@
             </div>
         </div>
     </footer>
-    <script src="./js/modal.js"></script>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <div class="modal-container">
+                <button class="close" data-modal-close>
+                  X
+                 </button>
+            </div>
+        </div>
+    </div>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
