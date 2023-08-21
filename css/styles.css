@@ -925,11 +925,12 @@ a {
   cursor: pointer;
 }
 .visually-hidden:checked + .rewiew-form-box {
-  background-color: var(--ocean);
+  background-color: #404BBF;
   border: none;
-  fill: var(--cloud);
-  border-color: var(--ocean);
+  fill: #FFFFFF;
+  border-color: #404BBF; 
 }
+
 .rewiew-form-checkbox:focus + .rewiew-form-own-checkbox {
   outline: 1px solid var(--ocean);
 }
@@ -1035,8 +1036,9 @@ a {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.rewiew-form-add {
+  margin-bottom: 16px;
 }
