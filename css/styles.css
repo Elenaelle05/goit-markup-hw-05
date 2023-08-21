@@ -888,9 +888,9 @@ a {
   letter-spacing:  0.04em;
   margin-bottom: 24px;
 }
-.visually-hidden {
-  /* appearance: none;
-  position: absolute; */
+.rewier-input-modal {
+  appearance: none;
+  position: absolute;
   
 }
 
@@ -924,14 +924,14 @@ a {
   margin-right: 8px;
   cursor: pointer;
 }
-.visually-hidden:checked + .rewiew-form-box {
+.rewier-input-modal:checked + .rewiew-form-box {
   background-color: #404BBF;
   border: none;
   fill: #FFFFFF;
-  border-color: #404BBF; 
+
 }
 
-.rewiew-form-checkbox:focus + .rewiew-form-own-checkbox {
+.rewier-input-modal:focus + .rewiew-form-own-checkbox {
   outline: 1px solid var(--ocean);
 }
 .footer-label {
