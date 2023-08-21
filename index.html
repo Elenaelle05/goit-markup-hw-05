@@ -458,7 +458,7 @@
                 class="rewiew-form"
                 id="user-name" 
                 type="text" 
-                name="user_name" 
+                name="user-name"
                 pattern="[a-zA-Zа-яА-я]+"  
                 title="Olena"
                  required
@@ -505,22 +505,32 @@
             <label class="rewiew-form-label" for="user-comment">Comment</label>
               <textarea 
               class="rewiew-form-comment"
-               name="user-message"
+              name="user-comment"
                placeholder="Text input"
                id="user-comment"
                ></textarea>
               </div>
-            <label class="rewiew-form-checkbox-label">
-                <input class="rewiew-form-checkbox"
+              
+            
+              <div class="rewiew-form-cont-check">
+                <input class="visually-hidden"
+                id="user-privacy"
+                value="true"
                   type="checkbox"
-                  name="user_accept_policy"
+                  name="user-privacy"
                   required >
-                  <svg class="rewiew-form-own-checkbox" width="16" height="16">
-                    <use href="./images/icons.svg#icon-check"></use>
-                  </svg>
-                I accept the terms and conditions of the&nbsp;
-                <a class="rewiew-form-policy" href="#">Privacy Policy</a>
+                  <label class="rewiew-form-checkbox-label" for="user-privacy">
+                    <span class="rewiew-form-box">
+                      <svg class="rewiew-form-own-checkbox" width="10" height="8">
+                        <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                    I accept the terms and conditions of the&nbsp;
+                    <a class="rewiew-form-policy" href="#">Privacy Policy</a>
+                    </span>
+                  
+              
               </label>
+            </div>
               <button class="rewiew-form-button" type="submit">Send</button>
           </form>
         </div>
