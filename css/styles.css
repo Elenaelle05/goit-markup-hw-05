@@ -922,24 +922,28 @@ a {
   display: block;
 }
 .footer-label-text {
+  margin-bottom: 16px;
   color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
-  margin-bottom: 16px;
+  letter-spacing: 0.02em;
   background-color: var(--navyblue);
 }
 .footer-label-form-place {
-  background-color: var(--navyblue);
-  color: var(--cloud);
+  background-color: transparent;
+  color: var(--white);
   border-radius: 4px;
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 264px;
   height: 40px;
   outline: transparent;
-  padding: 8px 16px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+
 }
 .footer-label-form-place::placeholder {
   color: var(--white, #fff);
@@ -953,23 +957,30 @@ a {
 .footer-form {
 }
 .footer-button-label {
-  display: inline-flex;
-  padding: 8px 24px;
-  justify-content: baseline;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 16px;
-  background-color: var(--iris);
-  color: var(--white, #fff);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
-  width: 165px;
-  height: 40px;
-  border: transparent;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--white, #fff);
+  background-color: var(--iris);
+  border: none;
   border-radius: 4px;
+  gap: 16px;
+  height: 40px;
+  
+  min-width: 165px;
 }
 .footer-icon-tl {
+  margin-left: 16px;
   fill: var(--cloud);
+}
+.footer-laber-class {
+  display: flex;
+  gap: 24px;
+
 }
