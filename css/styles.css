@@ -924,7 +924,7 @@ a {
   margin-right: 8px;
   cursor: pointer;
 }
-.rewiew-form-checkbox-label:checked > .rewiew-form-box {
+.rewier-input-modal:checked + .rewiew-form-checkbox-label > .rewiew-form-box {
   background-color: #404BBF;
   border: none;
   fill: #FFFFFF;
