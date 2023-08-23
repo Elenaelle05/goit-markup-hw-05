@@ -708,13 +708,13 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 584px;
+  min-height: 584px;
   width: 408px;
-  background-color: var(--cloud);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
+  background-color: #ffffff;
 }
 
 .modal-container {
@@ -752,8 +752,8 @@ a {
   fill: #ffffff;
 }
 .vector {
-  width: 24px;
-  height: 24px;
+  width: 8px;
+  height: 8px;
   border-radius: 4px;
 }
 .wrapper::before {
@@ -918,11 +918,9 @@ a {
 }
 .rewiew-form-own-checkbox {
   fill: transparent;
-  padding: 3px;
-  border-radius: 2px;
-  border: 1px solid rgba(46, 47, 66, 0.08);
-  margin-right: 8px;
   cursor: pointer;
+  fill:#fff;
+
 }
 .rewier-input-modal:checked + .rewiew-form-checkbox-label > .rewiew-form-box {
   background-color: #404BBF;
@@ -935,11 +933,11 @@ a {
   outline: 1px solid var(--ocean);
 }
 .footer-label {
-  display: flex;
-  align-items: baseline;
+  margin-left: 80px;
+
 }
 .footer-label-form {
-  margin-left: 80px;
+  margin-left: 40px;
   display: block;
 }
 .footer-label-text {
@@ -950,6 +948,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--navyblue);
+  margin-left: 40px;
 }
 .footer-label-form-place {
   background-color: transparent;
@@ -1020,7 +1019,7 @@ a {
 }
 .modal-rewiew-cont {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
 }
 .rewiew-form-cont-check {
